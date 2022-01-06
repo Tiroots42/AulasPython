@@ -51,3 +51,12 @@
 #idade = data_atual - ano_nascimento
 #print(f'Sua idade atual é {idade} anos')
 
+numero_magigo = 10
+numero_escolhiido = int(input('Digite um número: '))
+if(numero_escolhiido == numero_magigo):
+    print('Você acertou')
+elif(numero_escolhiido > numero_magigo):
+    print('Número acima')
+elif(numero_escolhiido < numero_magigo):
+    print('Número abaixo')        
+
