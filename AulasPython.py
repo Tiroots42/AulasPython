@@ -51,12 +51,24 @@
 #idade = data_atual - ano_nascimento
 #print(f'Sua idade atual é {idade} anos')
 
-numero_magigo = 10
-numero_escolhiido = int(input('Digite um número: '))
-if(numero_escolhiido == numero_magigo):
-    print('Você acertou')
-elif(numero_escolhiido > numero_magigo):
-    print('Número acima')
-elif(numero_escolhiido < numero_magigo):
-    print('Número abaixo')        
+#numero_magigo = 10
+#numero_escolhiido = int(input('Digite um número: '))
+#if(numero_escolhiido == numero_magigo):
+#    print('Você acertou')
+#elif(numero_escolhiido > numero_magigo):
+#    print('Número acima')
+#elif(numero_escolhiido < numero_magigo):
+#    print('Número abaixo')        
+
+#numero_sorte = 10
+#numero_usuario = int(input('Digite um numero: '))
+#certo = numero_usuario == numero_sorte
+#acima = numero_usuario > numero_sorte
+#abaixo = numero_usuario < numero_sorte
+#if (certo):
+#    print('Você acertou')
+#elif(acima):
+#    print('Está acima')
+#elif(abaixo):
+#    print('Está abaixo')
 
