@@ -86,3 +86,10 @@ if renda_acima_5mil or nome_limpo:
 else:
     print("Reprovado")
 
+valor_ativo = float(input('Digite valor do ativo: '))
+quantidade = int(input("Digite quantidade de ativos: "))
+valor_dividendo = float(input("Digite o valor do dividendo: "))
+total = valor_ativo * quantidade
+total_dividendo = valor_dividendo * quantidade
+print(f'O Valor de "{quantidade} Ações" é R${total:,.2f} e o Valor de Dividendos á receber é de ${total_dividendo:,.2f} por mês')
+
