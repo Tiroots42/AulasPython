@@ -100,3 +100,6 @@ if 20 <= valor <= 40:
 else:
     print('Produto não aceito')
 
+for numero in range(1, 20, 2):
+    print(numero)
+
