@@ -111,4 +111,7 @@ palavra = 'Google'
 for letra in palavra:
     print(f'{letra} esta dentro da palavra Google')
 
-    
+palavra = 'Tiago'
+for letra in palavra:
+    print(f'{letra} está dentro da palavra {palavra}')
+
