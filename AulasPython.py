@@ -115,3 +115,36 @@ palavra = 'Tiago'
 for letra in palavra:
     print(f'{letra} está dentro da palavra {palavra}')
 
+compra_confirmada = False
+dados_da_compra = 'Compra no valor de 5.000$ e entrega confirmada'
+for enviar in range (3):
+    if compra_confirmada:
+        print(dados_da_compra)
+        print('Detalhes enviados para o seu email')
+        break
+else:
+        print('Falha na compra')
+
+# for loop nested
+# Outer loop
+# Inner loop
+for numero1 in range(5):
+    print(numero1)
+    for numero2 in range(5):
+        print(numero2)
+
+for numero1 in range(5):
+    print(numero1)
+    for numero2 in range(5):
+        print(numero1, numero2)
+
+for numero1 in range(1,6):
+    print('Produto' + str(numero1))
+    for numero2 in range(11):
+        print(numero1, numero2)
+
+#Modificar de ESPECIAL para E S P E C I A L
+palavra = 'ESPECIAL'
+for spaco in palavra:
+    print(f' {spaco}' , end='')
+
